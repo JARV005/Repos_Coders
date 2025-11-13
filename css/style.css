@@ -1,0 +1,114 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Estilo General ===== */
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+  padding: 1.5rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header__title {
+  font-size: 2.5rem;
+  color: #58a6ff;
+  text-shadow: 0 0 10px rgba(88,166,255,0.4);
+}
+
+.header__subtitle {
+  color: #8b949e;
+}
+
+/* ===== Buscador ===== */
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search__input {
+  width: 60%;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #161b22;
+  color: #c9d1d9;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.search__input:focus {
+  border: 1px solid #58a6ff;
+  box-shadow: 0 0 8px #58a6ff;
+}
+
+/* ===== Tarjetas ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #161b22;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: 0.3s ease;
+  border: 1px solid #30363d;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #58a6ff;
+  box-shadow: 0 0 12px rgba(88,166,255,0.3);
+}
+
+.card__name {
+  font-size: 1.3rem;
+  color: #58a6ff;
+  margin-bottom: 0.5rem;
+}
+
+.card__repo {
+  color: #8b949e;
+  font-size: 0.95rem;
+}
+
+.card__link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #c9d1d9;
+  text-decoration: none;
+  border: 1px solid #58a6ff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card__link:hover {
+  background-color: #58a6ff;
+  color: #0d1117;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #8b949e;
+}
+
+.highlight {
+  color: #58a6ff;
+}

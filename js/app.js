@@ -1,9 +1,9 @@
 // Simulación de datos
 const repos = [
-  { nombre: "Ana Torres", proyecto: "Gestor de Tareas", url: "https://github.com/anatorres/gestor-tareas" },
-  { nombre: "Carlos Pérez", proyecto: "E-commerce JS", url: "https://github.com/carlosperez/ecommerce-js" },
-  { nombre: "Laura Gómez", proyecto: "API Clima", url: "https://github.com/lauragomez/api-clima" },
-  { nombre: "Miguel Ruiz", proyecto: "Chat en Tiempo Real", url: "https://github.com/miguelruiz/chat-realtime" },
+  { nombre: "Tomas Salazar Ruiz", proyecto: "Perfil Github", url: "https://github.com/Tomy20050211" },
+  { nombre: "Juan Pablo Olarte Alvarez", proyecto: "Perfil Github", url: "https://github.com/sixorca00-collab" },
+  { nombre: "Valeria Coy Ibarra ", proyecto: "Perfil Github", url: "https://github.com/valeriinfinito-creator" },
+  { nombre: "Jose Daniel Gutiérrez Echavarría", proyecto: "Perfil de Github", url: "https://github.com/Frosty2801" },
 ];
 
 // Render dinámico
